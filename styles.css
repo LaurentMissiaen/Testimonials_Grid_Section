@@ -1,0 +1,7 @@
+html {
+  box-sizing: border-box;
+}
+
+.card_header div {
+  display: inline-block;
+}
