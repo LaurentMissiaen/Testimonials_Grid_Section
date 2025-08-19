@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Barlow Semi Condensed, sans-serif;
+  background: hsl(0, 0%, 100%);
 }
 
 .card_header div {
@@ -23,8 +24,8 @@ html {
 
 .testimonial_grid {
   display: grid;
-  gap: 1em;
-  margin: 3em 1em;
+  gap: 2em;
+  margin: 4em 1em;
 }
 
 .card_header img {
@@ -51,6 +52,7 @@ html {
   border-radius: 10px;
   padding: 1.79rem;
   color: hsl(0, 0%, 100%);
+  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 .testimonial_1 .card_header img {
@@ -62,6 +64,7 @@ html {
   border-radius: 10px;
   padding: 1.79rem;
   color: hsl(0, 0%, 100%);
+  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 .testimonial_3 {
@@ -69,6 +72,7 @@ html {
   border-radius: 10px;
   padding: 1.79rem;
   color: hsl(217, 19%, 35%);
+  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 .testimonial_4 {
@@ -76,6 +80,7 @@ html {
   border-radius: 10px;
   padding: 1.79rem;
   color: hsl(0, 0%, 100%);
+  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 .testimonial_4 .card_header img {
@@ -87,4 +92,5 @@ html {
   border-radius: 10px;
   padding: 1.79rem;
   color: hsl(217, 19%, 35%);
+  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
