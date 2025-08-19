@@ -5,6 +5,20 @@ html {
 
 .card_header div {
   display: inline-block;
+  vertical-align: middle;
+}
+
+.card_header div p {
+  margin: 0;
+}
+
+.name {
+  padding-bottom: 0.5rem;
+}
+
+.descr {
+  font-size: 0.9rem;
+  opacity: 0.75;
 }
 
 .testimonial_grid {
@@ -14,12 +28,17 @@ html {
 }
 
 .card_header img {
-  border-radius: 30px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 0.83rem;
 }
 
 .quote {
   font-size: 0.83rem;
   line-height: 1.5em;
+  opacity: 0.75;
 }
 
 .bold {
@@ -34,6 +53,10 @@ html {
   color: hsl(0, 0%, 100%);
 }
 
+.testimonial_1 .card_header img {
+  border: 0.2rem solid hsl(264, 82%, 80%);
+}
+
 .testimonial_2 {
   background-color: hsl(217, 19%, 35%);
   border-radius: 10px;
@@ -45,7 +68,7 @@ html {
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
   padding: 1.79rem;
-  color: hsl(224, 10%, 45%);
+  color: hsl(217, 19%, 35%);
 }
 
 .testimonial_4 {
@@ -55,9 +78,13 @@ html {
   color: hsl(0, 0%, 100%);
 }
 
+.testimonial_4 .card_header img {
+  border: 0.2rem solid hsl(263, 55%, 52%);
+}
+
 .testimonial_5 {
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
   padding: 1.79rem;
-  color: hsl(224, 10%, 45%);
+  color: hsl(217, 19%, 35%);
 }
