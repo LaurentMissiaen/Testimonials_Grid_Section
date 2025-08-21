@@ -94,3 +94,21 @@ html {
   color: hsl(217, 19%, 35%);
   box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
+
+@media (min-width: 1000px) {
+  .testimonial_grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid_col_span_2 {
+    grid-column: span 2;
+  }
+  .testimonial_3 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .testimonial_5 {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
