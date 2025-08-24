@@ -54,16 +54,19 @@ body {
   font-weight: 500;
 }
 
+.grid_item {
+  border-radius: 10px;
+  padding: 1.5em;
+  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
+}
+
 .testimonial_1 {
   background-color: hsl(263, 55%, 52%);
   background-image: url(images/bg-pattern-quotation.svg);
   background-size: 120px 120px;
   background-position: 85% top;
   background-repeat: no-repeat;
-  border-radius: 10px;
-  padding: 1.5em;
   color: hsl(0, 0%, 100%);
-  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 .testimonial_1 .card_header img {
@@ -72,26 +75,17 @@ body {
 
 .testimonial_2 {
   background-color: hsl(217, 19%, 35%);
-  border-radius: 10px;
-  padding: 1.5em;
   color: hsl(0, 0%, 100%);
-  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 .testimonial_3 {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 10px;
-  padding: 1.5em;
   color: hsl(217, 19%, 35%);
-  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 .testimonial_4 {
   background-color: hsl(219, 29%, 14%);
-  border-radius: 10px;
-  padding: 1.5em;
   color: hsl(0, 0%, 100%);
-  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 .testimonial_4 .card_header img {
@@ -100,10 +94,7 @@ body {
 
 .testimonial_5 {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 10px;
-  padding: 1.5em;
   color: hsl(217, 19%, 35%);
-  box-shadow: hsl(0, 0%, 81%) 10px 60px 60px;
 }
 
 @media (max-width: 799px) {
