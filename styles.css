@@ -108,7 +108,7 @@ body {
 
 @media (max-width: 799px) {
   .testimonial_1 {
-    background-image: none !important;
+    background-image: none;
   }
 }
 
